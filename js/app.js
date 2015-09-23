@@ -6,7 +6,7 @@
 
     getInitialState: function getInitialState() {
       return {
-        guilds: window.Guilds
+        guilds: []
       };
     },
     ___componentDidMount: function ___componentDidMount() {
@@ -23,11 +23,28 @@
         guilds: a
       });
     },
+    componentDidMount: function componentDidMount() {
+      var First = [];
+      for (var i = 0; i < 100; i++) {
+        First.push(window.Guilds[i]);
+      }
+      this.setState({
+        guilds: First
+      });
+      setTimeout((function () {
+        this.setState({
+          guilds: window.Guilds
+        });
+      }).bind(this), 100);
+    },
+    onClick: function onClick(evt) {
+      window.open(evt.target.dataset.profile);
+    },
     render: function render() {
       var resultDOM = this.state.guilds.map(function (guild) {
         return React.createElement(
           "div",
-          { className: "lis-ranking" },
+          { className: "lis-ranking", key: guild.profile, onClick: this.onClick },
           React.createElement(
             "div",
             { className: "ico-rank-digits" },
@@ -41,7 +58,7 @@
               { className: "prt-ranking-name" },
               React.createElement(
                 "div",
-                { className: "txt-name" },
+                { className: "txt-name", "data-profile": 'http://gbf.game.mbga.jp/#' + guild.profile, onClick: this.onClick },
                 guild.name
               )
             ),
@@ -74,7 +91,7 @@
             )
           )
         );
-      });
+      }, this);
       return React.createElement(
         "div",
         null,

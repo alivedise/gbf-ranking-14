@@ -1,1 +1,2031 @@
-window.Guilds = [{"rank":"1","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"○団子団○―","record":"596588717","grade":"9","profile":"guild/detail/367231"},{"rank":"2","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"猫に甘い","record":"205860186","grade":"1","profile":"guild/detail/240277"},{"rank":"3","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"NADESICO 〆","record":"200443991","grade":"1","profile":"guild/detail/2803"},{"rank":"4","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"世界樹の迷宮","record":"192037664","grade":"2","profile":"guild/detail/185308"},{"rank":"5","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"神竜小日向騎士団","record":"183291662","grade":"2","profile":"guild/detail/7510"},{"rank":"6","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"猫まっしぐら！","record":"181933149","grade":"1","profile":"guild/detail/176162"},{"rank":"7","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"RAGNAROK","record":"172297078","grade":"1","profile":"guild/detail/336130"},{"rank":"8","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ダヌアちゃんお菓子隊","record":"170673916","grade":"3","profile":"guild/detail/9784"},{"rank":"9","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Clan Clan","record":"168936528","grade":"2","profile":"guild/detail/212913"},{"rank":"10","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Allegria","record":"167952451","grade":"1","profile":"guild/detail/59858"},{"rank":"1","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"○団子団○―","record":"596588717","grade":"9","profile":"guild/detail/367231"},{"rank":"2","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"猫に甘い","record":"205860186","grade":"1","profile":"guild/detail/240277"},{"rank":"3","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"NADESICO 〆","record":"200443991","grade":"1","profile":"guild/detail/2803"},{"rank":"4","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"世界樹の迷宮","record":"192037664","grade":"2","profile":"guild/detail/185308"},{"rank":"5","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"神竜小日向騎士団","record":"183291662","grade":"2","profile":"guild/detail/7510"},{"rank":"6","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"猫まっしぐら！","record":"181933149","grade":"1","profile":"guild/detail/176162"},{"rank":"7","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"RAGNAROK","record":"172297078","grade":"1","profile":"guild/detail/336130"},{"rank":"8","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ダヌアちゃんお菓子隊","record":"170673916","grade":"3","profile":"guild/detail/9784"},{"rank":"9","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Clan Clan","record":"168936528","grade":"2","profile":"guild/detail/212913"},{"rank":"10","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Allegria","record":"167952451","grade":"1","profile":"guild/detail/59858"},{"rank":"1","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"○団子団○―","record":"596588717","grade":"9","profile":"guild/detail/367231"},{"rank":"2","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"猫に甘い","record":"205860186","grade":"1","profile":"guild/detail/240277"},{"rank":"3","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"NADESICO 〆","record":"200443991","grade":"1","profile":"guild/detail/2803"},{"rank":"4","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"世界樹の迷宮","record":"192037664","grade":"2","profile":"guild/detail/185308"},{"rank":"5","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"神竜小日向騎士団","record":"183291662","grade":"2","profile":"guild/detail/7510"},{"rank":"6","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"猫まっしぐら！","record":"181933149","grade":"1","profile":"guild/detail/176162"},{"rank":"7","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"RAGNAROK","record":"172297078","grade":"1","profile":"guild/detail/336130"},{"rank":"8","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ダヌアちゃんお菓子隊","record":"170673916","grade":"3","profile":"guild/detail/9784"},{"rank":"9","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Clan Clan","record":"168936528","grade":"2","profile":"guild/detail/212913"},{"rank":"10","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Allegria","record":"167952451","grade":"1","profile":"guild/detail/59858"},{"rank":"11","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"†戦華†","record":"166555002","grade":"3","profile":"guild/detail/346297"},{"rank":"12","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"永遠の翼グラブル支部","record":"166164585","grade":"1","profile":"guild/detail/282272"},{"rank":"13","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"戸愚呂兄弟","record":"166046424","grade":"1","profile":"guild/detail/241820"},{"rank":"14","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"GNL","record":"165563270","grade":"2","profile":"guild/detail/12728"},{"rank":"15","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"silverstar","record":"164538711","grade":"1","profile":"guild/detail/238952"},{"rank":"16","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"u1's BAR","record":"163942806","grade":"1","profile":"guild/detail/172778"},{"rank":"17","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"3年の池上","record":"162684917","grade":"3","profile":"guild/detail/12093"},{"rank":"18","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"明鏡止水","record":"162379232","grade":"1","profile":"guild/detail/342181"},{"rank":"19","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"(・ω・)ノ","record":"161689537","grade":"2","profile":"guild/detail/75884"},{"rank":"20","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"KABU団","record":"160985531","grade":"1","profile":"guild/detail/81327"},{"rank":"11","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"†戦華†","record":"166555002","grade":"3","profile":"guild/detail/346297"},{"rank":"12","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"永遠の翼グラブル支部","record":"166164585","grade":"1","profile":"guild/detail/282272"},{"rank":"13","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"戸愚呂兄弟","record":"166046424","grade":"1","profile":"guild/detail/241820"},{"rank":"14","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"GNL","record":"165563270","grade":"2","profile":"guild/detail/12728"},{"rank":"15","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"silverstar","record":"164538711","grade":"1","profile":"guild/detail/238952"},{"rank":"16","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"u1's BAR","record":"163942806","grade":"1","profile":"guild/detail/172778"},{"rank":"17","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"3年の池上","record":"162684917","grade":"3","profile":"guild/detail/12093"},{"rank":"18","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"明鏡止水","record":"162379232","grade":"1","profile":"guild/detail/342181"},{"rank":"19","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"(・ω・)ノ","record":"161689537","grade":"2","profile":"guild/detail/75884"},{"rank":"20","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"KABU団","record":"160985531","grade":"1","profile":"guild/detail/81327"},{"rank":"21","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"ファオルペルツ","record":"160080314","grade":"9","profile":"guild/detail/369858"},{"rank":"22","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"LittleYard","record":"159341502","grade":"9","profile":"guild/detail/367206"},{"rank":"23","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"Cuarteto","record":"158960650","grade":"9","profile":"guild/detail/372155"},{"rank":"24","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"秘密結社鷹の爪団","record":"158466839","grade":"2","profile":"guild/detail/88923"},{"rank":"25","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"月の雫","record":"156510654","grade":"2","profile":"guild/detail/101796"},{"rank":"26","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"ME","record":"156499880","grade":"1","profile":"guild/detail/246982"},{"rank":"27","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"放課後楽園部","record":"155722008","grade":"6","profile":"guild/detail/132620"},{"rank":"28","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"更生施設","record":"155521093","grade":"1","profile":"guild/detail/313417"},{"rank":"29","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"公安9課","record":"155346728","grade":"4","profile":"guild/detail/294506"},{"rank":"30","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"とある自由の騎空団","record":"154985891","grade":"2","profile":"guild/detail/13085"},{"rank":"21","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"ファオルペルツ","record":"160080314","grade":"9","profile":"guild/detail/369858"},{"rank":"22","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"LittleYard","record":"159341502","grade":"9","profile":"guild/detail/367206"},{"rank":"23","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"Cuarteto","record":"158960650","grade":"9","profile":"guild/detail/372155"},{"rank":"24","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"秘密結社鷹の爪団","record":"158466839","grade":"2","profile":"guild/detail/88923"},{"rank":"25","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"月の雫","record":"156510654","grade":"2","profile":"guild/detail/101796"},{"rank":"26","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"ME","record":"156499880","grade":"1","profile":"guild/detail/246982"},{"rank":"27","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"放課後楽園部","record":"155722008","grade":"6","profile":"guild/detail/132620"},{"rank":"28","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"更生施設","record":"155521093","grade":"1","profile":"guild/detail/313417"},{"rank":"29","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"公安9課","record":"155346728","grade":"4","profile":"guild/detail/294506"},{"rank":"30","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"とある自由の騎空団","record":"154985891","grade":"2","profile":"guild/detail/13085"},{"rank":"21","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"ファオルペルツ","record":"160080314","grade":"9","profile":"guild/detail/369858"},{"rank":"22","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"LittleYard","record":"159341502","grade":"9","profile":"guild/detail/367206"},{"rank":"23","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"Cuarteto","record":"158960650","grade":"9","profile":"guild/detail/372155"},{"rank":"24","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"秘密結社鷹の爪団","record":"158466839","grade":"2","profile":"guild/detail/88923"},{"rank":"25","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"月の雫","record":"156510654","grade":"2","profile":"guild/detail/101796"},{"rank":"26","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"ME","record":"156499880","grade":"1","profile":"guild/detail/246982"},{"rank":"27","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"放課後楽園部","record":"155722008","grade":"6","profile":"guild/detail/132620"},{"rank":"28","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"更生施設","record":"155521093","grade":"1","profile":"guild/detail/313417"},{"rank":"29","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"公安9課","record":"155346728","grade":"4","profile":"guild/detail/294506"},{"rank":"30","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"とある自由の騎空団","record":"154985891","grade":"2","profile":"guild/detail/13085"},{"rank":"31","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"グレイ・フォックス","record":"154785319","grade":"2","profile":"guild/detail/174514"},{"rank":"32","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"空は藍色","record":"154381142","grade":"1","profile":"guild/detail/191721"},{"rank":"33","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"紅の翼","record":"154044208","grade":"2","profile":"guild/detail/171677"},{"rank":"34","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"のんびりまったり","record":"154022299","grade":"2","profile":"guild/detail/26315"},{"rank":"35","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"Invisible","record":"153973769","grade":"1","profile":"guild/detail/285643"},{"rank":"36","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ビィ君をモフ2する団","record":"153726370","grade":"2","profile":"guild/detail/100151"},{"rank":"37","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"星虹の騎空団","record":"153624703","grade":"2","profile":"guild/detail/67884"},{"rank":"38","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"NoReligon2","record":"153264539","grade":"1","profile":"guild/detail/176617"},{"rank":"39","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"＞＜","record":"153055729","grade":"2","profile":"guild/detail/307807"},{"rank":"40","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"いんこ団","record":"152991548","grade":"1","profile":"guild/detail/103802"},{"rank":"31","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"グレイ・フォックス","record":"154785319","grade":"2","profile":"guild/detail/174514"},{"rank":"32","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"空は藍色","record":"154381142","grade":"1","profile":"guild/detail/191721"},{"rank":"33","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"紅の翼","record":"154044208","grade":"2","profile":"guild/detail/171677"},{"rank":"34","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"のんびりまったり","record":"154022299","grade":"2","profile":"guild/detail/26315"},{"rank":"35","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"Invisible","record":"153973769","grade":"1","profile":"guild/detail/285643"},{"rank":"36","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ビィ君をモフ2する団","record":"153726370","grade":"2","profile":"guild/detail/100151"},{"rank":"37","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"星虹の騎空団","record":"153624703","grade":"2","profile":"guild/detail/67884"},{"rank":"38","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"NoReligon2","record":"153264539","grade":"1","profile":"guild/detail/176617"},{"rank":"39","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"＞＜","record":"153055729","grade":"2","profile":"guild/detail/307807"},{"rank":"40","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"いんこ団","record":"152991548","grade":"1","profile":"guild/detail/103802"},{"rank":"41","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"くるまえび","record":"152708878","grade":"1","profile":"guild/detail/87310"},{"rank":"42","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_02.png","name":"ジンバ・ラル団","record":"152703948","grade":"2","profile":"guild/detail/60623"},{"rank":"43","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"グランダバン","record":"152595729","grade":"1","profile":"guild/detail/188243"},{"rank":"44","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"森の熊団","record":"152535189","grade":"2","profile":"guild/detail/64542"},{"rank":"45","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"蒼天騎空団","record":"151824585","grade":"1","profile":"guild/detail/50511"},{"rank":"46","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"イケメン豚野郎詰所","record":"151550946","grade":"1","profile":"guild/detail/131096"},{"rank":"47","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"うまあじ","record":"150760821","grade":"1","profile":"guild/detail/142554"},{"rank":"48","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"俺たち多重性癖隊","record":"149842550","grade":"2","profile":"guild/detail/249876"},{"rank":"49","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Gori-Oshi","record":"149796551","grade":"1","profile":"guild/detail/36777"},{"rank":"50","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ゼエン教岡山県北支部","record":"149724645","grade":"2","profile":"guild/detail/312357"},{"rank":"41","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"くるまえび","record":"152708878","grade":"1","profile":"guild/detail/87310"},{"rank":"42","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_02.png","name":"ジンバ・ラル団","record":"152703948","grade":"2","profile":"guild/detail/60623"},{"rank":"43","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"グランダバン","record":"152595729","grade":"1","profile":"guild/detail/188243"},{"rank":"44","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"森の熊団","record":"152535189","grade":"2","profile":"guild/detail/64542"},{"rank":"45","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"蒼天騎空団","record":"151824585","grade":"1","profile":"guild/detail/50511"},{"rank":"46","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"イケメン豚野郎詰所","record":"151550946","grade":"1","profile":"guild/detail/131096"},{"rank":"47","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"うまあじ","record":"150760821","grade":"1","profile":"guild/detail/142554"},{"rank":"48","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"俺たち多重性癖隊","record":"149842550","grade":"2","profile":"guild/detail/249876"},{"rank":"49","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Gori-Oshi","record":"149796551","grade":"1","profile":"guild/detail/36777"},{"rank":"50","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ゼエン教岡山県北支部","record":"149724645","grade":"2","profile":"guild/detail/312357"},{"rank":"41","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"くるまえび","record":"152708878","grade":"1","profile":"guild/detail/87310"},{"rank":"42","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_02.png","name":"ジンバ・ラル団","record":"152703948","grade":"2","profile":"guild/detail/60623"},{"rank":"43","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"グランダバン","record":"152595729","grade":"1","profile":"guild/detail/188243"},{"rank":"44","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"森の熊団","record":"152535189","grade":"2","profile":"guild/detail/64542"},{"rank":"45","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"蒼天騎空団","record":"151824585","grade":"1","profile":"guild/detail/50511"},{"rank":"46","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"イケメン豚野郎詰所","record":"151550946","grade":"1","profile":"guild/detail/131096"},{"rank":"47","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"うまあじ","record":"150760821","grade":"1","profile":"guild/detail/142554"},{"rank":"48","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"俺たち多重性癖隊","record":"149842550","grade":"2","profile":"guild/detail/249876"},{"rank":"49","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Gori-Oshi","record":"149796551","grade":"1","profile":"guild/detail/36777"},{"rank":"50","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ゼエン教岡山県北支部","record":"149724645","grade":"2","profile":"guild/detail/312357"},{"rank":"51","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"澤穂希","record":"149722783","grade":"2","profile":"guild/detail/79528"},{"rank":"52","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ゴクミヤ団","record":"149606625","grade":"2","profile":"guild/detail/71369"},{"rank":"53","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"K ・ C ・ J","record":"149377608","grade":"1","profile":"guild/detail/21294"},{"rank":"54","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"すしすしカーニバル","record":"149257086","grade":"1","profile":"guild/detail/287294"},{"rank":"55","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"７-FEET","record":"149035968","grade":"1","profile":"guild/detail/183886"},{"rank":"56","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"LEVI","record":"148972110","grade":"2","profile":"guild/detail/99917"},{"rank":"57","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"パンドラパンプキン","record":"148568603","grade":"2","profile":"guild/detail/142960"},{"rank":"58","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"空想魔学旅団","record":"147787546","grade":"1","profile":"guild/detail/102269"},{"rank":"59","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"鈴木亮平","record":"147442734","grade":"1","profile":"guild/detail/304361"},{"rank":"60","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"アイマスJS","record":"147384607","grade":"1","profile":"guild/detail/152386"},{"rank":"51","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"澤穂希","record":"149722783","grade":"2","profile":"guild/detail/79528"},{"rank":"52","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ゴクミヤ団","record":"149606625","grade":"2","profile":"guild/detail/71369"},{"rank":"53","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"K ・ C ・ J","record":"149377608","grade":"1","profile":"guild/detail/21294"},{"rank":"54","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"すしすしカーニバル","record":"149257086","grade":"1","profile":"guild/detail/287294"},{"rank":"55","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"７-FEET","record":"149035968","grade":"1","profile":"guild/detail/183886"},{"rank":"56","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"LEVI","record":"148972110","grade":"2","profile":"guild/detail/99917"},{"rank":"57","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"パンドラパンプキン","record":"148568603","grade":"2","profile":"guild/detail/142960"},{"rank":"58","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"空想魔学旅団","record":"147787546","grade":"1","profile":"guild/detail/102269"},{"rank":"59","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"鈴木亮平","record":"147442734","grade":"1","profile":"guild/detail/304361"},{"rank":"60","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"アイマスJS","record":"147384607","grade":"1","profile":"guild/detail/152386"},{"rank":"61","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"浄化の儀","record":"147374105","grade":"1","profile":"guild/detail/191572"},{"rank":"62","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"空翔ける旅人","record":"147318233","grade":"2","profile":"guild/detail/45264"},{"rank":"63","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"わはー","record":"147279111","grade":"2","profile":"guild/detail/286021"},{"rank":"64","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"天枢七星門","record":"147262725","grade":"2","profile":"guild/detail/209651"},{"rank":"65","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"グランバール","record":"147112103","grade":"2","profile":"guild/detail/212262"},{"rank":"66","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"夜な夜な団","record":"145856522","grade":"2","profile":"guild/detail/21242"},{"rank":"67","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"闘海連合","record":"144893759","grade":"2","profile":"guild/detail/185778"},{"rank":"68","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"AileAspoir","record":"144843263","grade":"1","profile":"guild/detail/97121"},{"rank":"69","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"ぜぜん団","record":"144194691","grade":"9","profile":"guild/detail/370319"},{"rank":"70","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_01.png","name":"Free world","record":"143936880","grade":"1","profile":"guild/detail/73422"},{"rank":"61","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"浄化の儀","record":"147374105","grade":"1","profile":"guild/detail/191572"},{"rank":"62","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"空翔ける旅人","record":"147318233","grade":"2","profile":"guild/detail/45264"},{"rank":"63","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"わはー","record":"147279111","grade":"2","profile":"guild/detail/286021"},{"rank":"64","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"天枢七星門","record":"147262725","grade":"2","profile":"guild/detail/209651"},{"rank":"65","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"グランバール","record":"147112103","grade":"2","profile":"guild/detail/212262"},{"rank":"66","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"夜な夜な団","record":"145856522","grade":"2","profile":"guild/detail/21242"},{"rank":"67","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"闘海連合","record":"144893759","grade":"2","profile":"guild/detail/185778"},{"rank":"68","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"AileAspoir","record":"144843263","grade":"1","profile":"guild/detail/97121"},{"rank":"69","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"ぜぜん団","record":"144194691","grade":"9","profile":"guild/detail/370319"},{"rank":"70","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_01.png","name":"Free world","record":"143936880","grade":"1","profile":"guild/detail/73422"},{"rank":"61","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"浄化の儀","record":"147374105","grade":"1","profile":"guild/detail/191572"},{"rank":"62","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"空翔ける旅人","record":"147318233","grade":"2","profile":"guild/detail/45264"},{"rank":"63","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"わはー","record":"147279111","grade":"2","profile":"guild/detail/286021"},{"rank":"64","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"天枢七星門","record":"147262725","grade":"2","profile":"guild/detail/209651"},{"rank":"65","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"グランバール","record":"147112103","grade":"2","profile":"guild/detail/212262"},{"rank":"66","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"夜な夜な団","record":"145856522","grade":"2","profile":"guild/detail/21242"},{"rank":"67","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"闘海連合","record":"144893759","grade":"2","profile":"guild/detail/185778"},{"rank":"68","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"AileAspoir","record":"144843263","grade":"1","profile":"guild/detail/97121"},{"rank":"69","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"ぜぜん団","record":"144194691","grade":"9","profile":"guild/detail/370319"},{"rank":"70","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_01.png","name":"Free world","record":"143936880","grade":"1","profile":"guild/detail/73422"},{"rank":"71","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"セブンスウェル","record":"143740399","grade":"2","profile":"guild/detail/187757"},{"rank":"72","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"松屋ぐらぶる部","record":"143648083","grade":"1","profile":"guild/detail/298915"},{"rank":"73","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"ロケット団","record":"143189236","grade":"2","profile":"guild/detail/301308"},{"rank":"74","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"くさいにおいのネコ","record":"142792753","grade":"2","profile":"guild/detail/70286"},{"rank":"75","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"silmic","record":"142760819","grade":"1","profile":"guild/detail/84793"},{"rank":"76","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"永久の風","record":"142346510","grade":"1","profile":"guild/detail/3813"},{"rank":"77","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"コスモス","record":"142252682","grade":"1","profile":"guild/detail/94700"},{"rank":"78","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"水月","record":"141786355","grade":"9","profile":"guild/detail/367177"},{"rank":"79","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"から揚げ大好き","record":"141735301","grade":"1","profile":"guild/detail/135118"},{"rank":"80","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"人の金で焼き肉食べ隊","record":"141727958","grade":"9","profile":"guild/detail/372395"},{"rank":"71","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"セブンスウェル","record":"143740399","grade":"2","profile":"guild/detail/187757"},{"rank":"72","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"松屋ぐらぶる部","record":"143648083","grade":"1","profile":"guild/detail/298915"},{"rank":"73","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"ロケット団","record":"143189236","grade":"2","profile":"guild/detail/301308"},{"rank":"74","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"くさいにおいのネコ","record":"142792753","grade":"2","profile":"guild/detail/70286"},{"rank":"75","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"silmic","record":"142760819","grade":"1","profile":"guild/detail/84793"},{"rank":"76","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"永久の風","record":"142346510","grade":"1","profile":"guild/detail/3813"},{"rank":"77","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"コスモス","record":"142252682","grade":"1","profile":"guild/detail/94700"},{"rank":"78","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"水月","record":"141786355","grade":"9","profile":"guild/detail/367177"},{"rank":"79","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"から揚げ大好き","record":"141735301","grade":"1","profile":"guild/detail/135118"},{"rank":"80","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"人の金で焼き肉食べ隊","record":"141727958","grade":"9","profile":"guild/detail/372395"},{"rank":"81","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"ミカン団","record":"141632796","grade":"2","profile":"guild/detail/195493"},{"rank":"82","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"misamisa☆団","record":"141097404","grade":"2","profile":"guild/detail/267895"},{"rank":"83","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"もやし(*ﾟ▽ﾟ*)","record":"140930856","grade":"2","profile":"guild/detail/138196"},{"rank":"84","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"しもんきん","record":"140530503","grade":"1","profile":"guild/detail/344103"},{"rank":"85","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"サトック略奪団","record":"139895577","grade":"1","profile":"guild/detail/107177"},{"rank":"86","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"にゃんも海賊団","record":"139647342","grade":"2","profile":"guild/detail/134928"},{"rank":"87","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"GratteCiel","record":"139541455","grade":"1","profile":"guild/detail/109136"},{"rank":"88","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"すーぱーなちゅらる","record":"139479359","grade":"2","profile":"guild/detail/57773"},{"rank":"89","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"SkyWalker","record":"139371676","grade":"2","profile":"guild/detail/55112"},{"rank":"90","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"黒の武士団","record":"139364291","grade":"2","profile":"guild/detail/210064"},{"rank":"81","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"ミカン団","record":"141632796","grade":"2","profile":"guild/detail/195493"},{"rank":"82","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"misamisa☆団","record":"141097404","grade":"2","profile":"guild/detail/267895"},{"rank":"83","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"もやし(*ﾟ▽ﾟ*)","record":"140930856","grade":"2","profile":"guild/detail/138196"},{"rank":"84","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"しもんきん","record":"140530503","grade":"1","profile":"guild/detail/344103"},{"rank":"85","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"サトック略奪団","record":"139895577","grade":"1","profile":"guild/detail/107177"},{"rank":"86","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"にゃんも海賊団","record":"139647342","grade":"2","profile":"guild/detail/134928"},{"rank":"87","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"GratteCiel","record":"139541455","grade":"1","profile":"guild/detail/109136"},{"rank":"88","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"すーぱーなちゅらる","record":"139479359","grade":"2","profile":"guild/detail/57773"},{"rank":"89","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"SkyWalker","record":"139371676","grade":"2","profile":"guild/detail/55112"},{"rank":"90","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"黒の武士団","record":"139364291","grade":"2","profile":"guild/detail/210064"},{"rank":"81","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"ミカン団","record":"141632796","grade":"2","profile":"guild/detail/195493"},{"rank":"82","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"misamisa☆団","record":"141097404","grade":"2","profile":"guild/detail/267895"},{"rank":"83","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"もやし(*ﾟ▽ﾟ*)","record":"140930856","grade":"2","profile":"guild/detail/138196"},{"rank":"84","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"しもんきん","record":"140530503","grade":"1","profile":"guild/detail/344103"},{"rank":"85","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"サトック略奪団","record":"139895577","grade":"1","profile":"guild/detail/107177"},{"rank":"86","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"にゃんも海賊団","record":"139647342","grade":"2","profile":"guild/detail/134928"},{"rank":"87","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"GratteCiel","record":"139541455","grade":"1","profile":"guild/detail/109136"},{"rank":"88","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"すーぱーなちゅらる","record":"139479359","grade":"2","profile":"guild/detail/57773"},{"rank":"89","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"SkyWalker","record":"139371676","grade":"2","profile":"guild/detail/55112"},{"rank":"90","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"黒の武士団","record":"139364291","grade":"2","profile":"guild/detail/210064"},{"rank":"91","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ハムの輔団","record":"138979424","grade":"1","profile":"guild/detail/224780"},{"rank":"92","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"一撃","record":"138735868","grade":"2","profile":"guild/detail/176391"},{"rank":"93","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"輝きの向こう側へ！","record":"138486845","grade":"1","profile":"guild/detail/312038"},{"rank":"94","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"ラチャ","record":"138300878","grade":"2","profile":"guild/detail/189968"},{"rank":"95","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"天辺の星屑","record":"138123634","grade":"2","profile":"guild/detail/117861"},{"rank":"96","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"てきとーにのんびり","record":"138090173","grade":"1","profile":"guild/detail/144466"},{"rank":"97","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ザ・ライオンズ","record":"137883591","grade":"1","profile":"guild/detail/66456"},{"rank":"98","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"騎翔団カエサル","record":"136924480","grade":"2","profile":"guild/detail/250488"},{"rank":"99","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"無言実行","record":"136783945","grade":"2","profile":"guild/detail/257425"},{"rank":"100位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"星海団","record":"136743598","grade":"1","profile":"guild/detail/66683"},{"rank":"91","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ハムの輔団","record":"138979424","grade":"1","profile":"guild/detail/224780"},{"rank":"92","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"一撃","record":"138735868","grade":"2","profile":"guild/detail/176391"},{"rank":"93","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"輝きの向こう側へ！","record":"138486845","grade":"1","profile":"guild/detail/312038"},{"rank":"94","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"ラチャ","record":"138300878","grade":"2","profile":"guild/detail/189968"},{"rank":"95","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"天辺の星屑","record":"138123634","grade":"2","profile":"guild/detail/117861"},{"rank":"96","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png","name":"てきとーにのんびり","record":"138090173","grade":"1","profile":"guild/detail/144466"},{"rank":"97","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ザ・ライオンズ","record":"137883591","grade":"1","profile":"guild/detail/66456"},{"rank":"98","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"騎翔団カエサル","record":"136924480","grade":"2","profile":"guild/detail/250488"},{"rank":"99","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"無言実行","record":"136783945","grade":"2","profile":"guild/detail/257425"},{"rank":"100位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"星海団","record":"136743598","grade":"1","profile":"guild/detail/66683"},{"rank":"101位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"なんこつ","record":"136425017","grade":"1","profile":"guild/detail/159683"},{"rank":"102位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Cloud 9","record":"136384820","grade":"2","profile":"guild/detail/128475"},{"rank":"103位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ピンクの悪魔団","record":"136324470","grade":"2","profile":"guild/detail/265196"},{"rank":"104位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"イルミナティ","record":"136254920","grade":"2","profile":"guild/detail/187338"},{"rank":"105位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"黄昏の旅団","record":"136155539","grade":"2","profile":"guild/detail/133329"},{"rank":"106位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"蒼天の彼方","record":"135695187","grade":"2","profile":"guild/detail/125346"},{"rank":"107位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"都内某所","record":"135635928","grade":"2","profile":"guild/detail/290346"},{"rank":"108位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ASDF八紘一宇","record":"135562848","grade":"1","profile":"guild/detail/76458"},{"rank":"109位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"☆エンブレム☆","record":"135315802","grade":"2","profile":"guild/detail/186581"},{"rank":"110位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"色即是空","record":"135148118","grade":"9","profile":"guild/detail/370310"},{"rank":"101位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"なんこつ","record":"136425017","grade":"1","profile":"guild/detail/159683"},{"rank":"102位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Cloud 9","record":"136384820","grade":"2","profile":"guild/detail/128475"},{"rank":"103位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ピンクの悪魔団","record":"136324470","grade":"2","profile":"guild/detail/265196"},{"rank":"104位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"イルミナティ","record":"136254920","grade":"2","profile":"guild/detail/187338"},{"rank":"105位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"黄昏の旅団","record":"136155539","grade":"2","profile":"guild/detail/133329"},{"rank":"106位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"蒼天の彼方","record":"135695187","grade":"2","profile":"guild/detail/125346"},{"rank":"107位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"都内某所","record":"135635928","grade":"2","profile":"guild/detail/290346"},{"rank":"108位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ASDF八紘一宇","record":"135562848","grade":"1","profile":"guild/detail/76458"},{"rank":"109位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"☆エンブレム☆","record":"135315802","grade":"2","profile":"guild/detail/186581"},{"rank":"110位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"色即是空","record":"135148118","grade":"9","profile":"guild/detail/370310"},{"rank":"101位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png","name":"なんこつ","record":"136425017","grade":"1","profile":"guild/detail/159683"},{"rank":"102位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"Cloud 9","record":"136384820","grade":"2","profile":"guild/detail/128475"},{"rank":"103位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ピンクの悪魔団","record":"136324470","grade":"2","profile":"guild/detail/265196"},{"rank":"104位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"イルミナティ","record":"136254920","grade":"2","profile":"guild/detail/187338"},{"rank":"105位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"黄昏の旅団","record":"136155539","grade":"2","profile":"guild/detail/133329"},{"rank":"106位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"蒼天の彼方","record":"135695187","grade":"2","profile":"guild/detail/125346"},{"rank":"107位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"都内某所","record":"135635928","grade":"2","profile":"guild/detail/290346"},{"rank":"108位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"ASDF八紘一宇","record":"135562848","grade":"1","profile":"guild/detail/76458"},{"rank":"109位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png","name":"☆エンブレム☆","record":"135315802","grade":"2","profile":"guild/detail/186581"},{"rank":"110位","thumb":"http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png","name":"色即是空","record":"135148118","grade":"9","profile":"guild/detail/370310"},{"rank":"101位","thumb":"http://gbf.game.mbga.jp/","name":"なんこつ","record":"136425017","grade":"1","profile":"guild/detail/159683"},{"rank":"102位","thumb":"http://gbf.game.mbga.jp/","name":"Cloud 9","record":"136384820","grade":"2","profile":"guild/detail/128475"},{"rank":"103位","thumb":"http://gbf.game.mbga.jp/","name":"ピンクの悪魔団","record":"136324470","grade":"2","profile":"guild/detail/265196"},{"rank":"104位","thumb":"http://gbf.game.mbga.jp/","name":"イルミナティ","record":"136254920","grade":"2","profile":"guild/detail/187338"},{"rank":"105位","thumb":"http://gbf.game.mbga.jp/","name":"黄昏の旅団","record":"136155539","grade":"2","profile":"guild/detail/133329"},{"rank":"106位","thumb":"http://gbf.game.mbga.jp/","name":"蒼天の彼方","record":"135695187","grade":"2","profile":"guild/detail/125346"},{"rank":"107位","thumb":"http://gbf.game.mbga.jp/","name":"都内某所","record":"135635928","grade":"2","profile":"guild/detail/290346"},{"rank":"108位","thumb":"http://gbf.game.mbga.jp/","name":"ASDF八紘一宇","record":"135562848","grade":"1","profile":"guild/detail/76458"},{"rank":"109位","thumb":"http://gbf.game.mbga.jp/","name":"☆エンブレム☆","record":"135315802","grade":"2","profile":"guild/detail/186581"},{"rank":"110位","thumb":"http://gbf.game.mbga.jp/","name":"色即是空","record":"135148118","grade":"9","profile":"guild/detail/370310"}]
+window.Guilds = [{
+    "rank": "1",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "○団子団○―",
+    "record": "596588717",
+    "grade": "9",
+    "profile": "guild/detail/367231"
+}, {
+    "rank": "2",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "猫に甘い",
+    "record": "205860186",
+    "grade": "1",
+    "profile": "guild/detail/240277"
+}, {
+    "rank": "3",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "NADESICO 〆",
+    "record": "200443991",
+    "grade": "1",
+    "profile": "guild/detail/2803"
+}, {
+    "rank": "4",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "世界樹の迷宮",
+    "record": "192037664",
+    "grade": "2",
+    "profile": "guild/detail/185308"
+}, {
+    "rank": "5",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "神竜小日向騎士団",
+    "record": "183291662",
+    "grade": "2",
+    "profile": "guild/detail/7510"
+}, {
+    "rank": "6",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "猫まっしぐら！",
+    "record": "181933149",
+    "grade": "1",
+    "profile": "guild/detail/176162"
+}, {
+    "rank": "7",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "RAGNAROK",
+    "record": "172297078",
+    "grade": "1",
+    "profile": "guild/detail/336130"
+}, {
+    "rank": "8",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ダヌアちゃんお菓子隊",
+    "record": "170673916",
+    "grade": "3",
+    "profile": "guild/detail/9784"
+}, {
+    "rank": "9",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Clan Clan",
+    "record": "168936528",
+    "grade": "2",
+    "profile": "guild/detail/212913"
+}, {
+    "rank": "10",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Allegria",
+    "record": "167952451",
+    "grade": "1",
+    "profile": "guild/detail/59858"
+}, {
+    "rank": "1",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "○団子団○―",
+    "record": "596588717",
+    "grade": "9",
+    "profile": "guild/detail/367231"
+}, {
+    "rank": "2",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "猫に甘い",
+    "record": "205860186",
+    "grade": "1",
+    "profile": "guild/detail/240277"
+}, {
+    "rank": "3",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "NADESICO 〆",
+    "record": "200443991",
+    "grade": "1",
+    "profile": "guild/detail/2803"
+}, {
+    "rank": "4",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "世界樹の迷宮",
+    "record": "192037664",
+    "grade": "2",
+    "profile": "guild/detail/185308"
+}, {
+    "rank": "5",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "神竜小日向騎士団",
+    "record": "183291662",
+    "grade": "2",
+    "profile": "guild/detail/7510"
+}, {
+    "rank": "6",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "猫まっしぐら！",
+    "record": "181933149",
+    "grade": "1",
+    "profile": "guild/detail/176162"
+}, {
+    "rank": "7",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "RAGNAROK",
+    "record": "172297078",
+    "grade": "1",
+    "profile": "guild/detail/336130"
+}, {
+    "rank": "8",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ダヌアちゃんお菓子隊",
+    "record": "170673916",
+    "grade": "3",
+    "profile": "guild/detail/9784"
+}, {
+    "rank": "9",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Clan Clan",
+    "record": "168936528",
+    "grade": "2",
+    "profile": "guild/detail/212913"
+}, {
+    "rank": "10",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Allegria",
+    "record": "167952451",
+    "grade": "1",
+    "profile": "guild/detail/59858"
+}, {
+    "rank": "1",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "○団子団○―",
+    "record": "596588717",
+    "grade": "9",
+    "profile": "guild/detail/367231"
+}, {
+    "rank": "2",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "猫に甘い",
+    "record": "205860186",
+    "grade": "1",
+    "profile": "guild/detail/240277"
+}, {
+    "rank": "3",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "NADESICO 〆",
+    "record": "200443991",
+    "grade": "1",
+    "profile": "guild/detail/2803"
+}, {
+    "rank": "4",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "世界樹の迷宮",
+    "record": "192037664",
+    "grade": "2",
+    "profile": "guild/detail/185308"
+}, {
+    "rank": "5",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "神竜小日向騎士団",
+    "record": "183291662",
+    "grade": "2",
+    "profile": "guild/detail/7510"
+}, {
+    "rank": "6",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "猫まっしぐら！",
+    "record": "181933149",
+    "grade": "1",
+    "profile": "guild/detail/176162"
+}, {
+    "rank": "7",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "RAGNAROK",
+    "record": "172297078",
+    "grade": "1",
+    "profile": "guild/detail/336130"
+}, {
+    "rank": "8",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ダヌアちゃんお菓子隊",
+    "record": "170673916",
+    "grade": "3",
+    "profile": "guild/detail/9784"
+}, {
+    "rank": "9",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Clan Clan",
+    "record": "168936528",
+    "grade": "2",
+    "profile": "guild/detail/212913"
+}, {
+    "rank": "10",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Allegria",
+    "record": "167952451",
+    "grade": "1",
+    "profile": "guild/detail/59858"
+}, {
+    "rank": "11",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "†戦華†",
+    "record": "166555002",
+    "grade": "3",
+    "profile": "guild/detail/346297"
+}, {
+    "rank": "12",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "永遠の翼グラブル支部",
+    "record": "166164585",
+    "grade": "1",
+    "profile": "guild/detail/282272"
+}, {
+    "rank": "13",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "戸愚呂兄弟",
+    "record": "166046424",
+    "grade": "1",
+    "profile": "guild/detail/241820"
+}, {
+    "rank": "14",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "GNL",
+    "record": "165563270",
+    "grade": "2",
+    "profile": "guild/detail/12728"
+}, {
+    "rank": "15",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "silverstar",
+    "record": "164538711",
+    "grade": "1",
+    "profile": "guild/detail/238952"
+}, {
+    "rank": "16",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "u1's BAR",
+    "record": "163942806",
+    "grade": "1",
+    "profile": "guild/detail/172778"
+}, {
+    "rank": "17",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "3年の池上",
+    "record": "162684917",
+    "grade": "3",
+    "profile": "guild/detail/12093"
+}, {
+    "rank": "18",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "明鏡止水",
+    "record": "162379232",
+    "grade": "1",
+    "profile": "guild/detail/342181"
+}, {
+    "rank": "19",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "(・ω・)ノ",
+    "record": "161689537",
+    "grade": "2",
+    "profile": "guild/detail/75884"
+}, {
+    "rank": "20",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "KABU団",
+    "record": "160985531",
+    "grade": "1",
+    "profile": "guild/detail/81327"
+}, {
+    "rank": "11",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "†戦華†",
+    "record": "166555002",
+    "grade": "3",
+    "profile": "guild/detail/346297"
+}, {
+    "rank": "12",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "永遠の翼グラブル支部",
+    "record": "166164585",
+    "grade": "1",
+    "profile": "guild/detail/282272"
+}, {
+    "rank": "13",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "戸愚呂兄弟",
+    "record": "166046424",
+    "grade": "1",
+    "profile": "guild/detail/241820"
+}, {
+    "rank": "14",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "GNL",
+    "record": "165563270",
+    "grade": "2",
+    "profile": "guild/detail/12728"
+}, {
+    "rank": "15",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "silverstar",
+    "record": "164538711",
+    "grade": "1",
+    "profile": "guild/detail/238952"
+}, {
+    "rank": "16",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "u1's BAR",
+    "record": "163942806",
+    "grade": "1",
+    "profile": "guild/detail/172778"
+}, {
+    "rank": "17",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "3年の池上",
+    "record": "162684917",
+    "grade": "3",
+    "profile": "guild/detail/12093"
+}, {
+    "rank": "18",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "明鏡止水",
+    "record": "162379232",
+    "grade": "1",
+    "profile": "guild/detail/342181"
+}, {
+    "rank": "19",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "(・ω・)ノ",
+    "record": "161689537",
+    "grade": "2",
+    "profile": "guild/detail/75884"
+}, {
+    "rank": "20",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "KABU団",
+    "record": "160985531",
+    "grade": "1",
+    "profile": "guild/detail/81327"
+}, {
+    "rank": "21",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "ファオルペルツ",
+    "record": "160080314",
+    "grade": "9",
+    "profile": "guild/detail/369858"
+}, {
+    "rank": "22",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "LittleYard",
+    "record": "159341502",
+    "grade": "9",
+    "profile": "guild/detail/367206"
+}, {
+    "rank": "23",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "Cuarteto",
+    "record": "158960650",
+    "grade": "9",
+    "profile": "guild/detail/372155"
+}, {
+    "rank": "24",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "秘密結社鷹の爪団",
+    "record": "158466839",
+    "grade": "2",
+    "profile": "guild/detail/88923"
+}, {
+    "rank": "25",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "月の雫",
+    "record": "156510654",
+    "grade": "2",
+    "profile": "guild/detail/101796"
+}, {
+    "rank": "26",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "ME",
+    "record": "156499880",
+    "grade": "1",
+    "profile": "guild/detail/246982"
+}, {
+    "rank": "27",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "放課後楽園部",
+    "record": "155722008",
+    "grade": "6",
+    "profile": "guild/detail/132620"
+}, {
+    "rank": "28",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "更生施設",
+    "record": "155521093",
+    "grade": "1",
+    "profile": "guild/detail/313417"
+}, {
+    "rank": "29",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "公安9課",
+    "record": "155346728",
+    "grade": "4",
+    "profile": "guild/detail/294506"
+}, {
+    "rank": "30",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "とある自由の騎空団",
+    "record": "154985891",
+    "grade": "2",
+    "profile": "guild/detail/13085"
+}, {
+    "rank": "21",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "ファオルペルツ",
+    "record": "160080314",
+    "grade": "9",
+    "profile": "guild/detail/369858"
+}, {
+    "rank": "22",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "LittleYard",
+    "record": "159341502",
+    "grade": "9",
+    "profile": "guild/detail/367206"
+}, {
+    "rank": "23",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "Cuarteto",
+    "record": "158960650",
+    "grade": "9",
+    "profile": "guild/detail/372155"
+}, {
+    "rank": "24",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "秘密結社鷹の爪団",
+    "record": "158466839",
+    "grade": "2",
+    "profile": "guild/detail/88923"
+}, {
+    "rank": "25",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "月の雫",
+    "record": "156510654",
+    "grade": "2",
+    "profile": "guild/detail/101796"
+}, {
+    "rank": "26",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "ME",
+    "record": "156499880",
+    "grade": "1",
+    "profile": "guild/detail/246982"
+}, {
+    "rank": "27",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "放課後楽園部",
+    "record": "155722008",
+    "grade": "6",
+    "profile": "guild/detail/132620"
+}, {
+    "rank": "28",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "更生施設",
+    "record": "155521093",
+    "grade": "1",
+    "profile": "guild/detail/313417"
+}, {
+    "rank": "29",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "公安9課",
+    "record": "155346728",
+    "grade": "4",
+    "profile": "guild/detail/294506"
+}, {
+    "rank": "30",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "とある自由の騎空団",
+    "record": "154985891",
+    "grade": "2",
+    "profile": "guild/detail/13085"
+}, {
+    "rank": "21",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "ファオルペルツ",
+    "record": "160080314",
+    "grade": "9",
+    "profile": "guild/detail/369858"
+}, {
+    "rank": "22",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "LittleYard",
+    "record": "159341502",
+    "grade": "9",
+    "profile": "guild/detail/367206"
+}, {
+    "rank": "23",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "Cuarteto",
+    "record": "158960650",
+    "grade": "9",
+    "profile": "guild/detail/372155"
+}, {
+    "rank": "24",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "秘密結社鷹の爪団",
+    "record": "158466839",
+    "grade": "2",
+    "profile": "guild/detail/88923"
+}, {
+    "rank": "25",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "月の雫",
+    "record": "156510654",
+    "grade": "2",
+    "profile": "guild/detail/101796"
+}, {
+    "rank": "26",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "ME",
+    "record": "156499880",
+    "grade": "1",
+    "profile": "guild/detail/246982"
+}, {
+    "rank": "27",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "放課後楽園部",
+    "record": "155722008",
+    "grade": "6",
+    "profile": "guild/detail/132620"
+}, {
+    "rank": "28",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "更生施設",
+    "record": "155521093",
+    "grade": "1",
+    "profile": "guild/detail/313417"
+}, {
+    "rank": "29",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "公安9課",
+    "record": "155346728",
+    "grade": "4",
+    "profile": "guild/detail/294506"
+}, {
+    "rank": "30",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "とある自由の騎空団",
+    "record": "154985891",
+    "grade": "2",
+    "profile": "guild/detail/13085"
+}, {
+    "rank": "31",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "グレイ・フォックス",
+    "record": "154785319",
+    "grade": "2",
+    "profile": "guild/detail/174514"
+}, {
+    "rank": "32",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "空は藍色",
+    "record": "154381142",
+    "grade": "1",
+    "profile": "guild/detail/191721"
+}, {
+    "rank": "33",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "紅の翼",
+    "record": "154044208",
+    "grade": "2",
+    "profile": "guild/detail/171677"
+}, {
+    "rank": "34",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "のんびりまったり",
+    "record": "154022299",
+    "grade": "2",
+    "profile": "guild/detail/26315"
+}, {
+    "rank": "35",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "Invisible",
+    "record": "153973769",
+    "grade": "1",
+    "profile": "guild/detail/285643"
+}, {
+    "rank": "36",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ビィ君をモフ2する団",
+    "record": "153726370",
+    "grade": "2",
+    "profile": "guild/detail/100151"
+}, {
+    "rank": "37",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "星虹の騎空団",
+    "record": "153624703",
+    "grade": "2",
+    "profile": "guild/detail/67884"
+}, {
+    "rank": "38",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "NoReligon2",
+    "record": "153264539",
+    "grade": "1",
+    "profile": "guild/detail/176617"
+}, {
+    "rank": "39",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "＞＜",
+    "record": "153055729",
+    "grade": "2",
+    "profile": "guild/detail/307807"
+}, {
+    "rank": "40",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "いんこ団",
+    "record": "152991548",
+    "grade": "1",
+    "profile": "guild/detail/103802"
+}, {
+    "rank": "31",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "グレイ・フォックス",
+    "record": "154785319",
+    "grade": "2",
+    "profile": "guild/detail/174514"
+}, {
+    "rank": "32",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "空は藍色",
+    "record": "154381142",
+    "grade": "1",
+    "profile": "guild/detail/191721"
+}, {
+    "rank": "33",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "紅の翼",
+    "record": "154044208",
+    "grade": "2",
+    "profile": "guild/detail/171677"
+}, {
+    "rank": "34",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "のんびりまったり",
+    "record": "154022299",
+    "grade": "2",
+    "profile": "guild/detail/26315"
+}, {
+    "rank": "35",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "Invisible",
+    "record": "153973769",
+    "grade": "1",
+    "profile": "guild/detail/285643"
+}, {
+    "rank": "36",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ビィ君をモフ2する団",
+    "record": "153726370",
+    "grade": "2",
+    "profile": "guild/detail/100151"
+}, {
+    "rank": "37",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "星虹の騎空団",
+    "record": "153624703",
+    "grade": "2",
+    "profile": "guild/detail/67884"
+}, {
+    "rank": "38",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "NoReligon2",
+    "record": "153264539",
+    "grade": "1",
+    "profile": "guild/detail/176617"
+}, {
+    "rank": "39",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "＞＜",
+    "record": "153055729",
+    "grade": "2",
+    "profile": "guild/detail/307807"
+}, {
+    "rank": "40",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "いんこ団",
+    "record": "152991548",
+    "grade": "1",
+    "profile": "guild/detail/103802"
+}, {
+    "rank": "41",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "くるまえび",
+    "record": "152708878",
+    "grade": "1",
+    "profile": "guild/detail/87310"
+}, {
+    "rank": "42",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_02.png",
+    "name": "ジンバ・ラル団",
+    "record": "152703948",
+    "grade": "2",
+    "profile": "guild/detail/60623"
+}, {
+    "rank": "43",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "グランダバン",
+    "record": "152595729",
+    "grade": "1",
+    "profile": "guild/detail/188243"
+}, {
+    "rank": "44",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "森の熊団",
+    "record": "152535189",
+    "grade": "2",
+    "profile": "guild/detail/64542"
+}, {
+    "rank": "45",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "蒼天騎空団",
+    "record": "151824585",
+    "grade": "1",
+    "profile": "guild/detail/50511"
+}, {
+    "rank": "46",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "イケメン豚野郎詰所",
+    "record": "151550946",
+    "grade": "1",
+    "profile": "guild/detail/131096"
+}, {
+    "rank": "47",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "うまあじ",
+    "record": "150760821",
+    "grade": "1",
+    "profile": "guild/detail/142554"
+}, {
+    "rank": "48",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "俺たち多重性癖隊",
+    "record": "149842550",
+    "grade": "2",
+    "profile": "guild/detail/249876"
+}, {
+    "rank": "49",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Gori-Oshi",
+    "record": "149796551",
+    "grade": "1",
+    "profile": "guild/detail/36777"
+}, {
+    "rank": "50",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ゼエン教岡山県北支部",
+    "record": "149724645",
+    "grade": "2",
+    "profile": "guild/detail/312357"
+}, {
+    "rank": "41",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "くるまえび",
+    "record": "152708878",
+    "grade": "1",
+    "profile": "guild/detail/87310"
+}, {
+    "rank": "42",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_02.png",
+    "name": "ジンバ・ラル団",
+    "record": "152703948",
+    "grade": "2",
+    "profile": "guild/detail/60623"
+}, {
+    "rank": "43",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "グランダバン",
+    "record": "152595729",
+    "grade": "1",
+    "profile": "guild/detail/188243"
+}, {
+    "rank": "44",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "森の熊団",
+    "record": "152535189",
+    "grade": "2",
+    "profile": "guild/detail/64542"
+}, {
+    "rank": "45",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "蒼天騎空団",
+    "record": "151824585",
+    "grade": "1",
+    "profile": "guild/detail/50511"
+}, {
+    "rank": "46",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "イケメン豚野郎詰所",
+    "record": "151550946",
+    "grade": "1",
+    "profile": "guild/detail/131096"
+}, {
+    "rank": "47",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "うまあじ",
+    "record": "150760821",
+    "grade": "1",
+    "profile": "guild/detail/142554"
+}, {
+    "rank": "48",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "俺たち多重性癖隊",
+    "record": "149842550",
+    "grade": "2",
+    "profile": "guild/detail/249876"
+}, {
+    "rank": "49",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Gori-Oshi",
+    "record": "149796551",
+    "grade": "1",
+    "profile": "guild/detail/36777"
+}, {
+    "rank": "50",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ゼエン教岡山県北支部",
+    "record": "149724645",
+    "grade": "2",
+    "profile": "guild/detail/312357"
+}, {
+    "rank": "41",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "くるまえび",
+    "record": "152708878",
+    "grade": "1",
+    "profile": "guild/detail/87310"
+}, {
+    "rank": "42",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_02.png",
+    "name": "ジンバ・ラル団",
+    "record": "152703948",
+    "grade": "2",
+    "profile": "guild/detail/60623"
+}, {
+    "rank": "43",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "グランダバン",
+    "record": "152595729",
+    "grade": "1",
+    "profile": "guild/detail/188243"
+}, {
+    "rank": "44",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "森の熊団",
+    "record": "152535189",
+    "grade": "2",
+    "profile": "guild/detail/64542"
+}, {
+    "rank": "45",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "蒼天騎空団",
+    "record": "151824585",
+    "grade": "1",
+    "profile": "guild/detail/50511"
+}, {
+    "rank": "46",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "イケメン豚野郎詰所",
+    "record": "151550946",
+    "grade": "1",
+    "profile": "guild/detail/131096"
+}, {
+    "rank": "47",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "うまあじ",
+    "record": "150760821",
+    "grade": "1",
+    "profile": "guild/detail/142554"
+}, {
+    "rank": "48",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "俺たち多重性癖隊",
+    "record": "149842550",
+    "grade": "2",
+    "profile": "guild/detail/249876"
+}, {
+    "rank": "49",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Gori-Oshi",
+    "record": "149796551",
+    "grade": "1",
+    "profile": "guild/detail/36777"
+}, {
+    "rank": "50",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ゼエン教岡山県北支部",
+    "record": "149724645",
+    "grade": "2",
+    "profile": "guild/detail/312357"
+}, {
+    "rank": "51",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "澤穂希",
+    "record": "149722783",
+    "grade": "2",
+    "profile": "guild/detail/79528"
+}, {
+    "rank": "52",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ゴクミヤ団",
+    "record": "149606625",
+    "grade": "2",
+    "profile": "guild/detail/71369"
+}, {
+    "rank": "53",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "K ・ C ・ J",
+    "record": "149377608",
+    "grade": "1",
+    "profile": "guild/detail/21294"
+}, {
+    "rank": "54",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "すしすしカーニバル",
+    "record": "149257086",
+    "grade": "1",
+    "profile": "guild/detail/287294"
+}, {
+    "rank": "55",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "７-FEET",
+    "record": "149035968",
+    "grade": "1",
+    "profile": "guild/detail/183886"
+}, {
+    "rank": "56",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "LEVI",
+    "record": "148972110",
+    "grade": "2",
+    "profile": "guild/detail/99917"
+}, {
+    "rank": "57",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "パンドラパンプキン",
+    "record": "148568603",
+    "grade": "2",
+    "profile": "guild/detail/142960"
+}, {
+    "rank": "58",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "空想魔学旅団",
+    "record": "147787546",
+    "grade": "1",
+    "profile": "guild/detail/102269"
+}, {
+    "rank": "59",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "鈴木亮平",
+    "record": "147442734",
+    "grade": "1",
+    "profile": "guild/detail/304361"
+}, {
+    "rank": "60",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "アイマスJS",
+    "record": "147384607",
+    "grade": "1",
+    "profile": "guild/detail/152386"
+}, {
+    "rank": "51",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "澤穂希",
+    "record": "149722783",
+    "grade": "2",
+    "profile": "guild/detail/79528"
+}, {
+    "rank": "52",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ゴクミヤ団",
+    "record": "149606625",
+    "grade": "2",
+    "profile": "guild/detail/71369"
+}, {
+    "rank": "53",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "K ・ C ・ J",
+    "record": "149377608",
+    "grade": "1",
+    "profile": "guild/detail/21294"
+}, {
+    "rank": "54",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "すしすしカーニバル",
+    "record": "149257086",
+    "grade": "1",
+    "profile": "guild/detail/287294"
+}, {
+    "rank": "55",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "７-FEET",
+    "record": "149035968",
+    "grade": "1",
+    "profile": "guild/detail/183886"
+}, {
+    "rank": "56",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "LEVI",
+    "record": "148972110",
+    "grade": "2",
+    "profile": "guild/detail/99917"
+}, {
+    "rank": "57",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "パンドラパンプキン",
+    "record": "148568603",
+    "grade": "2",
+    "profile": "guild/detail/142960"
+}, {
+    "rank": "58",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "空想魔学旅団",
+    "record": "147787546",
+    "grade": "1",
+    "profile": "guild/detail/102269"
+}, {
+    "rank": "59",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "鈴木亮平",
+    "record": "147442734",
+    "grade": "1",
+    "profile": "guild/detail/304361"
+}, {
+    "rank": "60",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "アイマスJS",
+    "record": "147384607",
+    "grade": "1",
+    "profile": "guild/detail/152386"
+}, {
+    "rank": "61",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "浄化の儀",
+    "record": "147374105",
+    "grade": "1",
+    "profile": "guild/detail/191572"
+}, {
+    "rank": "62",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "空翔ける旅人",
+    "record": "147318233",
+    "grade": "2",
+    "profile": "guild/detail/45264"
+}, {
+    "rank": "63",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "わはー",
+    "record": "147279111",
+    "grade": "2",
+    "profile": "guild/detail/286021"
+}, {
+    "rank": "64",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "天枢七星門",
+    "record": "147262725",
+    "grade": "2",
+    "profile": "guild/detail/209651"
+}, {
+    "rank": "65",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "グランバール",
+    "record": "147112103",
+    "grade": "2",
+    "profile": "guild/detail/212262"
+}, {
+    "rank": "66",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "夜な夜な団",
+    "record": "145856522",
+    "grade": "2",
+    "profile": "guild/detail/21242"
+}, {
+    "rank": "67",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "闘海連合",
+    "record": "144893759",
+    "grade": "2",
+    "profile": "guild/detail/185778"
+}, {
+    "rank": "68",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "AileAspoir",
+    "record": "144843263",
+    "grade": "1",
+    "profile": "guild/detail/97121"
+}, {
+    "rank": "69",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "ぜぜん団",
+    "record": "144194691",
+    "grade": "9",
+    "profile": "guild/detail/370319"
+}, {
+    "rank": "70",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_01.png",
+    "name": "Free world",
+    "record": "143936880",
+    "grade": "1",
+    "profile": "guild/detail/73422"
+}, {
+    "rank": "61",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "浄化の儀",
+    "record": "147374105",
+    "grade": "1",
+    "profile": "guild/detail/191572"
+}, {
+    "rank": "62",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "空翔ける旅人",
+    "record": "147318233",
+    "grade": "2",
+    "profile": "guild/detail/45264"
+}, {
+    "rank": "63",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "わはー",
+    "record": "147279111",
+    "grade": "2",
+    "profile": "guild/detail/286021"
+}, {
+    "rank": "64",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "天枢七星門",
+    "record": "147262725",
+    "grade": "2",
+    "profile": "guild/detail/209651"
+}, {
+    "rank": "65",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "グランバール",
+    "record": "147112103",
+    "grade": "2",
+    "profile": "guild/detail/212262"
+}, {
+    "rank": "66",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "夜な夜な団",
+    "record": "145856522",
+    "grade": "2",
+    "profile": "guild/detail/21242"
+}, {
+    "rank": "67",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "闘海連合",
+    "record": "144893759",
+    "grade": "2",
+    "profile": "guild/detail/185778"
+}, {
+    "rank": "68",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "AileAspoir",
+    "record": "144843263",
+    "grade": "1",
+    "profile": "guild/detail/97121"
+}, {
+    "rank": "69",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "ぜぜん団",
+    "record": "144194691",
+    "grade": "9",
+    "profile": "guild/detail/370319"
+}, {
+    "rank": "70",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_01.png",
+    "name": "Free world",
+    "record": "143936880",
+    "grade": "1",
+    "profile": "guild/detail/73422"
+}, {
+    "rank": "61",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "浄化の儀",
+    "record": "147374105",
+    "grade": "1",
+    "profile": "guild/detail/191572"
+}, {
+    "rank": "62",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "空翔ける旅人",
+    "record": "147318233",
+    "grade": "2",
+    "profile": "guild/detail/45264"
+}, {
+    "rank": "63",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "わはー",
+    "record": "147279111",
+    "grade": "2",
+    "profile": "guild/detail/286021"
+}, {
+    "rank": "64",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "天枢七星門",
+    "record": "147262725",
+    "grade": "2",
+    "profile": "guild/detail/209651"
+}, {
+    "rank": "65",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "グランバール",
+    "record": "147112103",
+    "grade": "2",
+    "profile": "guild/detail/212262"
+}, {
+    "rank": "66",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "夜な夜な団",
+    "record": "145856522",
+    "grade": "2",
+    "profile": "guild/detail/21242"
+}, {
+    "rank": "67",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "闘海連合",
+    "record": "144893759",
+    "grade": "2",
+    "profile": "guild/detail/185778"
+}, {
+    "rank": "68",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "AileAspoir",
+    "record": "144843263",
+    "grade": "1",
+    "profile": "guild/detail/97121"
+}, {
+    "rank": "69",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "ぜぜん団",
+    "record": "144194691",
+    "grade": "9",
+    "profile": "guild/detail/370319"
+}, {
+    "rank": "70",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/30001_01.png",
+    "name": "Free world",
+    "record": "143936880",
+    "grade": "1",
+    "profile": "guild/detail/73422"
+}, {
+    "rank": "71",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "セブンスウェル",
+    "record": "143740399",
+    "grade": "2",
+    "profile": "guild/detail/187757"
+}, {
+    "rank": "72",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "松屋ぐらぶる部",
+    "record": "143648083",
+    "grade": "1",
+    "profile": "guild/detail/298915"
+}, {
+    "rank": "73",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "ロケット団",
+    "record": "143189236",
+    "grade": "2",
+    "profile": "guild/detail/301308"
+}, {
+    "rank": "74",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "くさいにおいのネコ",
+    "record": "142792753",
+    "grade": "2",
+    "profile": "guild/detail/70286"
+}, {
+    "rank": "75",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "silmic",
+    "record": "142760819",
+    "grade": "1",
+    "profile": "guild/detail/84793"
+}, {
+    "rank": "76",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "永久の風",
+    "record": "142346510",
+    "grade": "1",
+    "profile": "guild/detail/3813"
+}, {
+    "rank": "77",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "コスモス",
+    "record": "142252682",
+    "grade": "1",
+    "profile": "guild/detail/94700"
+}, {
+    "rank": "78",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "水月",
+    "record": "141786355",
+    "grade": "9",
+    "profile": "guild/detail/367177"
+}, {
+    "rank": "79",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "から揚げ大好き",
+    "record": "141735301",
+    "grade": "1",
+    "profile": "guild/detail/135118"
+}, {
+    "rank": "80",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "人の金で焼き肉食べ隊",
+    "record": "141727958",
+    "grade": "9",
+    "profile": "guild/detail/372395"
+}, {
+    "rank": "71",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "セブンスウェル",
+    "record": "143740399",
+    "grade": "2",
+    "profile": "guild/detail/187757"
+}, {
+    "rank": "72",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "松屋ぐらぶる部",
+    "record": "143648083",
+    "grade": "1",
+    "profile": "guild/detail/298915"
+}, {
+    "rank": "73",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "ロケット団",
+    "record": "143189236",
+    "grade": "2",
+    "profile": "guild/detail/301308"
+}, {
+    "rank": "74",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "くさいにおいのネコ",
+    "record": "142792753",
+    "grade": "2",
+    "profile": "guild/detail/70286"
+}, {
+    "rank": "75",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "silmic",
+    "record": "142760819",
+    "grade": "1",
+    "profile": "guild/detail/84793"
+}, {
+    "rank": "76",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "永久の風",
+    "record": "142346510",
+    "grade": "1",
+    "profile": "guild/detail/3813"
+}, {
+    "rank": "77",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "コスモス",
+    "record": "142252682",
+    "grade": "1",
+    "profile": "guild/detail/94700"
+}, {
+    "rank": "78",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "水月",
+    "record": "141786355",
+    "grade": "9",
+    "profile": "guild/detail/367177"
+}, {
+    "rank": "79",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "から揚げ大好き",
+    "record": "141735301",
+    "grade": "1",
+    "profile": "guild/detail/135118"
+}, {
+    "rank": "80",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "人の金で焼き肉食べ隊",
+    "record": "141727958",
+    "grade": "9",
+    "profile": "guild/detail/372395"
+}, {
+    "rank": "81",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "ミカン団",
+    "record": "141632796",
+    "grade": "2",
+    "profile": "guild/detail/195493"
+}, {
+    "rank": "82",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "misamisa☆団",
+    "record": "141097404",
+    "grade": "2",
+    "profile": "guild/detail/267895"
+}, {
+    "rank": "83",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "もやし(*ﾟ▽ﾟ*)",
+    "record": "140930856",
+    "grade": "2",
+    "profile": "guild/detail/138196"
+}, {
+    "rank": "84",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "しもんきん",
+    "record": "140530503",
+    "grade": "1",
+    "profile": "guild/detail/344103"
+}, {
+    "rank": "85",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "サトック略奪団",
+    "record": "139895577",
+    "grade": "1",
+    "profile": "guild/detail/107177"
+}, {
+    "rank": "86",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "にゃんも海賊団",
+    "record": "139647342",
+    "grade": "2",
+    "profile": "guild/detail/134928"
+}, {
+    "rank": "87",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "GratteCiel",
+    "record": "139541455",
+    "grade": "1",
+    "profile": "guild/detail/109136"
+}, {
+    "rank": "88",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "すーぱーなちゅらる",
+    "record": "139479359",
+    "grade": "2",
+    "profile": "guild/detail/57773"
+}, {
+    "rank": "89",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "SkyWalker",
+    "record": "139371676",
+    "grade": "2",
+    "profile": "guild/detail/55112"
+}, {
+    "rank": "90",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "黒の武士団",
+    "record": "139364291",
+    "grade": "2",
+    "profile": "guild/detail/210064"
+}, {
+    "rank": "81",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "ミカン団",
+    "record": "141632796",
+    "grade": "2",
+    "profile": "guild/detail/195493"
+}, {
+    "rank": "82",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "misamisa☆団",
+    "record": "141097404",
+    "grade": "2",
+    "profile": "guild/detail/267895"
+}, {
+    "rank": "83",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "もやし(*ﾟ▽ﾟ*)",
+    "record": "140930856",
+    "grade": "2",
+    "profile": "guild/detail/138196"
+}, {
+    "rank": "84",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "しもんきん",
+    "record": "140530503",
+    "grade": "1",
+    "profile": "guild/detail/344103"
+}, {
+    "rank": "85",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "サトック略奪団",
+    "record": "139895577",
+    "grade": "1",
+    "profile": "guild/detail/107177"
+}, {
+    "rank": "86",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "にゃんも海賊団",
+    "record": "139647342",
+    "grade": "2",
+    "profile": "guild/detail/134928"
+}, {
+    "rank": "87",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "GratteCiel",
+    "record": "139541455",
+    "grade": "1",
+    "profile": "guild/detail/109136"
+}, {
+    "rank": "88",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "すーぱーなちゅらる",
+    "record": "139479359",
+    "grade": "2",
+    "profile": "guild/detail/57773"
+}, {
+    "rank": "89",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "SkyWalker",
+    "record": "139371676",
+    "grade": "2",
+    "profile": "guild/detail/55112"
+}, {
+    "rank": "90",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "黒の武士団",
+    "record": "139364291",
+    "grade": "2",
+    "profile": "guild/detail/210064"
+}, {
+    "rank": "81",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "ミカン団",
+    "record": "141632796",
+    "grade": "2",
+    "profile": "guild/detail/195493"
+}, {
+    "rank": "82",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "misamisa☆団",
+    "record": "141097404",
+    "grade": "2",
+    "profile": "guild/detail/267895"
+}, {
+    "rank": "83",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "もやし(*ﾟ▽ﾟ*)",
+    "record": "140930856",
+    "grade": "2",
+    "profile": "guild/detail/138196"
+}, {
+    "rank": "84",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "しもんきん",
+    "record": "140530503",
+    "grade": "1",
+    "profile": "guild/detail/344103"
+}, {
+    "rank": "85",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "サトック略奪団",
+    "record": "139895577",
+    "grade": "1",
+    "profile": "guild/detail/107177"
+}, {
+    "rank": "86",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "にゃんも海賊団",
+    "record": "139647342",
+    "grade": "2",
+    "profile": "guild/detail/134928"
+}, {
+    "rank": "87",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "GratteCiel",
+    "record": "139541455",
+    "grade": "1",
+    "profile": "guild/detail/109136"
+}, {
+    "rank": "88",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "すーぱーなちゅらる",
+    "record": "139479359",
+    "grade": "2",
+    "profile": "guild/detail/57773"
+}, {
+    "rank": "89",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "SkyWalker",
+    "record": "139371676",
+    "grade": "2",
+    "profile": "guild/detail/55112"
+}, {
+    "rank": "90",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "黒の武士団",
+    "record": "139364291",
+    "grade": "2",
+    "profile": "guild/detail/210064"
+}, {
+    "rank": "91",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ハムの輔団",
+    "record": "138979424",
+    "grade": "1",
+    "profile": "guild/detail/224780"
+}, {
+    "rank": "92",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "一撃",
+    "record": "138735868",
+    "grade": "2",
+    "profile": "guild/detail/176391"
+}, {
+    "rank": "93",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "輝きの向こう側へ！",
+    "record": "138486845",
+    "grade": "1",
+    "profile": "guild/detail/312038"
+}, {
+    "rank": "94",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "ラチャ",
+    "record": "138300878",
+    "grade": "2",
+    "profile": "guild/detail/189968"
+}, {
+    "rank": "95",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "天辺の星屑",
+    "record": "138123634",
+    "grade": "2",
+    "profile": "guild/detail/117861"
+}, {
+    "rank": "96",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "てきとーにのんびり",
+    "record": "138090173",
+    "grade": "1",
+    "profile": "guild/detail/144466"
+}, {
+    "rank": "97",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ザ・ライオンズ",
+    "record": "137883591",
+    "grade": "1",
+    "profile": "guild/detail/66456"
+}, {
+    "rank": "98",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "騎翔団カエサル",
+    "record": "136924480",
+    "grade": "2",
+    "profile": "guild/detail/250488"
+}, {
+    "rank": "99",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "無言実行",
+    "record": "136783945",
+    "grade": "2",
+    "profile": "guild/detail/257425"
+}, {
+    "rank": "100位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "星海団",
+    "record": "136743598",
+    "grade": "1",
+    "profile": "guild/detail/66683"
+}, {
+    "rank": "91",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ハムの輔団",
+    "record": "138979424",
+    "grade": "1",
+    "profile": "guild/detail/224780"
+}, {
+    "rank": "92",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "一撃",
+    "record": "138735868",
+    "grade": "2",
+    "profile": "guild/detail/176391"
+}, {
+    "rank": "93",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "輝きの向こう側へ！",
+    "record": "138486845",
+    "grade": "1",
+    "profile": "guild/detail/312038"
+}, {
+    "rank": "94",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "ラチャ",
+    "record": "138300878",
+    "grade": "2",
+    "profile": "guild/detail/189968"
+}, {
+    "rank": "95",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "天辺の星屑",
+    "record": "138123634",
+    "grade": "2",
+    "profile": "guild/detail/117861"
+}, {
+    "rank": "96",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_01.png",
+    "name": "てきとーにのんびり",
+    "record": "138090173",
+    "grade": "1",
+    "profile": "guild/detail/144466"
+}, {
+    "rank": "97",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ザ・ライオンズ",
+    "record": "137883591",
+    "grade": "1",
+    "profile": "guild/detail/66456"
+}, {
+    "rank": "98",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "騎翔団カエサル",
+    "record": "136924480",
+    "grade": "2",
+    "profile": "guild/detail/250488"
+}, {
+    "rank": "99",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "無言実行",
+    "record": "136783945",
+    "grade": "2",
+    "profile": "guild/detail/257425"
+}, {
+    "rank": "100位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "星海団",
+    "record": "136743598",
+    "grade": "1",
+    "profile": "guild/detail/66683"
+}, {
+    "rank": "101位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "なんこつ",
+    "record": "136425017",
+    "grade": "1",
+    "profile": "guild/detail/159683"
+}, {
+    "rank": "102位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Cloud 9",
+    "record": "136384820",
+    "grade": "2",
+    "profile": "guild/detail/128475"
+}, {
+    "rank": "103位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ピンクの悪魔団",
+    "record": "136324470",
+    "grade": "2",
+    "profile": "guild/detail/265196"
+}, {
+    "rank": "104位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "イルミナティ",
+    "record": "136254920",
+    "grade": "2",
+    "profile": "guild/detail/187338"
+}, {
+    "rank": "105位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "黄昏の旅団",
+    "record": "136155539",
+    "grade": "2",
+    "profile": "guild/detail/133329"
+}, {
+    "rank": "106位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "蒼天の彼方",
+    "record": "135695187",
+    "grade": "2",
+    "profile": "guild/detail/125346"
+}, {
+    "rank": "107位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "都内某所",
+    "record": "135635928",
+    "grade": "2",
+    "profile": "guild/detail/290346"
+}, {
+    "rank": "108位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ASDF八紘一宇",
+    "record": "135562848",
+    "grade": "1",
+    "profile": "guild/detail/76458"
+}, {
+    "rank": "109位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "☆エンブレム☆",
+    "record": "135315802",
+    "grade": "2",
+    "profile": "guild/detail/186581"
+}, {
+    "rank": "110位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "色即是空",
+    "record": "135148118",
+    "grade": "9",
+    "profile": "guild/detail/370310"
+}, {
+    "rank": "101位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "なんこつ",
+    "record": "136425017",
+    "grade": "1",
+    "profile": "guild/detail/159683"
+}, {
+    "rank": "102位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Cloud 9",
+    "record": "136384820",
+    "grade": "2",
+    "profile": "guild/detail/128475"
+}, {
+    "rank": "103位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ピンクの悪魔団",
+    "record": "136324470",
+    "grade": "2",
+    "profile": "guild/detail/265196"
+}, {
+    "rank": "104位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "イルミナティ",
+    "record": "136254920",
+    "grade": "2",
+    "profile": "guild/detail/187338"
+}, {
+    "rank": "105位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "黄昏の旅団",
+    "record": "136155539",
+    "grade": "2",
+    "profile": "guild/detail/133329"
+}, {
+    "rank": "106位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "蒼天の彼方",
+    "record": "135695187",
+    "grade": "2",
+    "profile": "guild/detail/125346"
+}, {
+    "rank": "107位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "都内某所",
+    "record": "135635928",
+    "grade": "2",
+    "profile": "guild/detail/290346"
+}, {
+    "rank": "108位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ASDF八紘一宇",
+    "record": "135562848",
+    "grade": "1",
+    "profile": "guild/detail/76458"
+}, {
+    "rank": "109位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "☆エンブレム☆",
+    "record": "135315802",
+    "grade": "2",
+    "profile": "guild/detail/186581"
+}, {
+    "rank": "110位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "色即是空",
+    "record": "135148118",
+    "grade": "9",
+    "profile": "guild/detail/370310"
+}, {
+    "rank": "101位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_02.png",
+    "name": "なんこつ",
+    "record": "136425017",
+    "grade": "1",
+    "profile": "guild/detail/159683"
+}, {
+    "rank": "102位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "Cloud 9",
+    "record": "136384820",
+    "grade": "2",
+    "profile": "guild/detail/128475"
+}, {
+    "rank": "103位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ピンクの悪魔団",
+    "record": "136324470",
+    "grade": "2",
+    "profile": "guild/detail/265196"
+}, {
+    "rank": "104位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "イルミナティ",
+    "record": "136254920",
+    "grade": "2",
+    "profile": "guild/detail/187338"
+}, {
+    "rank": "105位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "黄昏の旅団",
+    "record": "136155539",
+    "grade": "2",
+    "profile": "guild/detail/133329"
+}, {
+    "rank": "106位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "蒼天の彼方",
+    "record": "135695187",
+    "grade": "2",
+    "profile": "guild/detail/125346"
+}, {
+    "rank": "107位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "都内某所",
+    "record": "135635928",
+    "grade": "2",
+    "profile": "guild/detail/290346"
+}, {
+    "rank": "108位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "ASDF八紘一宇",
+    "record": "135562848",
+    "grade": "1",
+    "profile": "guild/detail/76458"
+}, {
+    "rank": "109位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/20001_02.png",
+    "name": "☆エンブレム☆",
+    "record": "135315802",
+    "grade": "2",
+    "profile": "guild/detail/186581"
+}, {
+    "rank": "110位",
+    "thumb": "http://gbf.game-a1.mbga.jp/assets/img_mid/sp/guild/thumb/battle/10001_01.png",
+    "name": "色即是空",
+    "record": "135148118",
+    "grade": "9",
+    "profile": "guild/detail/370310"
+}, {
+    "rank": "101位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "なんこつ",
+    "record": "136425017",
+    "grade": "1",
+    "profile": "guild/detail/159683"
+}, {
+    "rank": "102位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "Cloud 9",
+    "record": "136384820",
+    "grade": "2",
+    "profile": "guild/detail/128475"
+}, {
+    "rank": "103位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "ピンクの悪魔団",
+    "record": "136324470",
+    "grade": "2",
+    "profile": "guild/detail/265196"
+}, {
+    "rank": "104位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "イルミナティ",
+    "record": "136254920",
+    "grade": "2",
+    "profile": "guild/detail/187338"
+}, {
+    "rank": "105位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "黄昏の旅団",
+    "record": "136155539",
+    "grade": "2",
+    "profile": "guild/detail/133329"
+}, {
+    "rank": "106位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "蒼天の彼方",
+    "record": "135695187",
+    "grade": "2",
+    "profile": "guild/detail/125346"
+}, {
+    "rank": "107位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "都内某所",
+    "record": "135635928",
+    "grade": "2",
+    "profile": "guild/detail/290346"
+}, {
+    "rank": "108位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "ASDF八紘一宇",
+    "record": "135562848",
+    "grade": "1",
+    "profile": "guild/detail/76458"
+}, {
+    "rank": "109位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "☆エンブレム☆",
+    "record": "135315802",
+    "grade": "2",
+    "profile": "guild/detail/186581"
+}, {
+    "rank": "110位",
+    "thumb": "http://gbf.game.mbga.jp/",
+    "name": "色即是空",
+    "record": "135148118",
+    "grade": "9",
+    "profile": "guild/detail/370310"
+}]
